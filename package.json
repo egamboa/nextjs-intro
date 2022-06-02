@@ -1,29 +1,20 @@
 {
-  "name": "nextjs-intro",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "my-sample",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/egamboa/nextjs-intro.git"
-  },
-  "keywords": [
-    "nextjs"
-  ],
-  "author": "Andres Gamboa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/egamboa/nextjs-intro/issues"
-  },
-  "homepage": "https://github.com/egamboa/nextjs-intro#readme",
   "dependencies": {
-    "next": "^12.1.6",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6"
   }
 }
